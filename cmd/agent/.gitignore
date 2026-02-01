@@ -1,0 +1,36 @@
+# --- Binaries & Build Artifacts ---
+# The compiled executable names we've used
+main
+agent
+crawler-agent
+
+# Standard Go build artifacts
+*.exe
+*.test
+*.out
+
+# --- Data & State (CRITICAL) ---
+# Your agent's memory. If you commit this, other people/machines
+# will share the same "seen" history, which breaks the logic.
+history.json
+
+# --- Reports & Outputs ---
+# You generally don't commit the output of your script
+ai_digest.md
+final_report.md
+*_report.md
+
+# --- Secrets & Configuration ---
+# Never commit your API keys
+.env
+.env.local
+
+# --- Temporary Debug Scripts ---
+# The script we made to check model names
+debug_models.go
+debug_*.go
+
+# --- OS & IDE Files ---
+.DS_Store
+.vscode/
+.idea/
