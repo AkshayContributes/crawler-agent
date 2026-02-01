@@ -1,7 +1,3 @@
-Create a file named `README.md` in your root folder and paste this in.
-
----
-
 # 🤖 Staff-Bot: AI-Powered Engineering News Radar
 
 > **A personal automated research assistant that monitors engineering blogs, summarizes them using GenAI, and delivers high-signal insights directly to your phone.**
